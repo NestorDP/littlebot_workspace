@@ -1,0 +1,13 @@
+# Package-specific colcon settings for Littlebot.
+#
+# Add package names under "names" or package-relative paths under "paths"
+# when a package needs settings that differ from workspace defaults.
+#
+# Example:
+# names:
+#   some_ros_package:
+#     cmake-args:
+#       - -DCMAKE_BUILD_TYPE=Debug
+
+names: {}
+paths: {}
