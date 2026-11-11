@@ -1,0 +1,21 @@
+repositories:
+  littlebot:
+    type: git
+    url: https://github.com/NestorDP/littlebot.git
+    version: 264f605334974354a21d05c916e1129f94424a52
+  littlebot_firmware:
+    type: git
+    url: https://github.com/NestorDP/littlebot_firmware.git
+    version: cfbadf0389230355b57721c6226abd3bbd93d4c3
+  littlebot_gazebo:
+    type: git
+    url: https://github.com/NestorDP/littlebot_gazebo.git
+    version: d38963ea5da62273f45ee66a8f8949a89136db9e
+  littlebot_rqt_plugin:
+    type: git
+    url: https://github.com/NestorDP/littlebot_rqt_plugin.git
+    version: e2a0e7fba04ba939a8518aed1c7e68feadc16058
+  littlebot_hardware:
+    type: git
+    url: https://github.com/NestorDP/littlebot_hardware.git
+    version: c3b14a39e170a34e506cc9837ab3fd38878a75ad
