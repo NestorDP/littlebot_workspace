@@ -1,0 +1,16 @@
+# Workspace-wide defaults for the Littlebot colcon build.
+# This file is copied to the colcon workspace root by
+# tools/configure_colcon_workspace.sh.
+
+build:
+  # Useful for ROS 2 development: changes to Python and other resources
+  # can be reflected without reinstalling copied files.
+  symlink-install: true
+
+  # Stream package output instead of buffering it until the package finishes.
+  event-handlers:
+    - console_direct+
+
+  # Generate compile_commands.json for CMake-based packages and IDE tooling.
+  cmake-args:
+    - -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
