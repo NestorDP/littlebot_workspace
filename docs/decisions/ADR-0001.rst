@@ -1,0 +1,28 @@
+ADR-0001: Initial System Architecture
+======================================
+
+Status
+------
+
+Accepted
+
+Context
+-------
+
+Littlebot combines embedded firmware, hardware drivers, ROS 2 packages, and
+development tools. The project needs clear boundaries between these
+components so that software can be developed and tested independently.
+
+Decision
+--------
+
+Use a layered architecture consisting of embedded firmware, hardware
+interfaces, ROS 2 integration, and application-level tools. Keep subsystem
+interfaces explicit and support simulation where practical.
+
+Consequences
+------------
+
+This structure enables incremental development and reuse of software between
+simulation and physical hardware. It also requires interface changes to be
+documented and coordinated across dependent subsystems.
