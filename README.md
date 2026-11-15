@@ -62,3 +62,24 @@ Only repositories containing compatible ROS 2 packages are expected to be built 
 ## Scope
 
 This repository does not replace the subsystem repositories. It records system-level decisions and interfaces, coordinates integration, and provides reproducible instructions for assembling the development workspace.
+
+## Documentation and architecture
+
+The workspace documentation is intended to describe the system as a whole, including architecture, requirements, subsystem responsibilities, interfaces, integration, and engineering decisions.
+
+Detailed implementation and API documentation should remain in the corresponding subsystem repositories.
+
+The unified documentation site will be published through Read the Docs once the documentation integration workflow is configured.
+
+## Contributing
+
+**Contributions are welcome!**
+
+### Where should I contribute?
+
+- **System architecture, integration, workspace configuration, or project-wide documentation:** contribute to littlebot_workspace.
+- **ROS 2 application and robot control:** contribute to littlebot.
+- **Embedded software:** contribute to littlebot_firmware.
+- **Simulation:** contribute to littlebot_gazebo.
+- **Graphical interface:** contribute to littlebot_rqt_plugin
+- **Mechanical or electrical design:** contribute to littlebot_hardware.
