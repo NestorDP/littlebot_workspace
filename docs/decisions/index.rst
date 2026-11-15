@@ -7,4 +7,4 @@ technical decisions made during the development of Littlebot.
 .. toctree::
    :maxdepth: 1
 
-   .. ADR-0001
+   ADR-0001

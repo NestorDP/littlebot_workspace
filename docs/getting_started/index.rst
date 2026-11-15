@@ -7,5 +7,5 @@ and build the Littlebot software.
 .. toctree::
    :maxdepth: 2
 
-  ..  installation
-  ..  building_the_project
+   installation
+   building_the_project
