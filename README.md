@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/littlebot_workspace/badge/?version=latest)](https://littlebot-workspace.readthedocs.io/en/latest/?badge=latest)
+
 # Littlebot Engineering Workspace
 
 The `littlebot_workspace` repository is the central integration and engineering workspace for the Littlebot project.
