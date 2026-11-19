@@ -1,8 +1,17 @@
-# ADR-0002: Littlebot Documentation Architecture
+ADR-0002: Littlebot Documentation Architecture
+======================================
 
-**Status:** Accepted  
-**Date:** 2026-11-17  
-**Decision makers:** Littlebot project maintainers
+Status: 
+-------
+Accepted
+
+Date:
+-----
+2026-11-17  
+
+Decision makers:
+----------------
+Littlebot project maintainers
 
 ## 1. Context
 
