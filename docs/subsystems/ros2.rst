@@ -1,16 +1,16 @@
-ROS 2
-=====
+ROS 2 Software
+==============
 
-The ROS 2 subsystem provides the middleware used to connect Littlebot nodes,
-drivers, controllers, and tools.
+The ROS 2 software repository provides the main software components responsible for controlling and interacting with the Littlebot platform.
 
-Responsibilities
-----------------
+The subsystem is maintained independently in the `littlebot` repository.
 
-* Define nodes, topics, services, and actions.
-* Coordinate message flow between robot subsystems.
-* Provide launch files and runtime parameters.
-* Support simulation and hardware deployments through common interfaces.
+Documentation covering its architecture, installation, configuration, usage, and API reference is available in the dedicated ROS 2 documentation project.
 
-Node interfaces and parameters should be documented when they are introduced
-or changed.
+**Subsystem documentation:**
+
+- `ROS 2 Documentation <https://littlebot-workspace.readthedocs.io/projects/ros2/en/latest/>`_
+
+**Source repository:**
+
+- `GitHub - littlebot <https://github.com/NestorDP/littlebot>`_
