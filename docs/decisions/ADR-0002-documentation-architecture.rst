@@ -117,7 +117,7 @@ Generated documentation shall be reproducible and shall not become an independen
 The following ownership model shall apply:
 
 | Repository | Documentation responsibility |
-|---|---|
+|----|----|
 | `littlebot_workspace` | System engineering, overall architecture, requirements, integration, engineering processes, and system-level interfaces. |
 | `littlebot` | ROS 2 subsystem architecture, packages, nodes, configuration, usage, and ROS 2 API references. |
 | `littlebot_firmware` | Firmware architecture, development, build, testing, communication protocols, and public firmware API references. |

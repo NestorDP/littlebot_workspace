@@ -8,3 +8,4 @@ technical decisions made during the development of Littlebot.
    :maxdepth: 1
 
    ADR-0001
+   ADR-0002-documentation-architecture
