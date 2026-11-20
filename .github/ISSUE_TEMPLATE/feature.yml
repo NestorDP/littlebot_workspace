@@ -1,0 +1,63 @@
+
+name: Feature
+description: Propose a new capability or improvement.
+title: "[FEATURE] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the capability you want to implement and the problem it solves.
+
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What should this feature accomplish?
+      placeholder: Describe the intended result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature necessary?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe the expected implementation or behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and limitations
+      description: Define what is included and excluded.
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: List the conditions that must be satisfied for completion.
+      placeholder: |
+        - [ ] Expected behavior is implemented.
+        - [ ] Relevant tests pass.
+        - [ ] Documentation is updated, if necessary.
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and references
+      description: Related issues, components, ADRs, or external dependencies.
+    validations:
+      required: false

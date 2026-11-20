@@ -1,0 +1,63 @@
+
+name: Bug
+description: Report incorrect or unexpected behavior.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem and provide enough information to reproduce it.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem summary
+      description: What is happening?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happens currently?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide the steps needed to reproduce the problem.
+      placeholder: |
+        1. Configure...
+        2. Execute...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Relevant hardware, software, OS, versions, and configuration.
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and additional evidence
+      description: Include relevant error messages, screenshots, or test results.
+      render: text
+    validations:
+      required: false
