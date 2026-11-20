@@ -7,6 +7,7 @@ the Littlebot project.
 .. toctree::
    :maxdepth: 2
 
+   project_workflow
    development_process
    coding_standards
    testing_strategy
